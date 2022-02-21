@@ -1,0 +1,29 @@
+.modal__body {
+    background-color: var(--light-white);
+}
+
+.modal__footer button,
+.modal__footer button:hover {
+    background-color: var(--sky-blue);
+}
+
+.form__action {
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom__input {
+    margin-top: 1rem;
+}
+
+.password-container {
+    position: relative;
+}
+
+.eye-icon {
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    right: 0;
+}
