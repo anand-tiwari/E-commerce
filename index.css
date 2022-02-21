@@ -52,3 +52,29 @@
 .image-overlay-text .fa-arrow-right {
     margin-left: 0.4rem;
 }
+
+
+/*  Category section */
+
+.category__title {
+    font-size: 3rem;
+    margin: 1.2rem 0;
+    font-weight: 900;
+    text-align: center;
+    color: var(--sky-blue);
+}
+
+.product__category {
+    display: flex;
+    justify-content: center;
+}
+
+.category__card {
+    flex: 0 0 16%;
+    border-radius: 0.5rem;
+    background-color: var(--white);
+    margin-bottom: 1rem;
+    margin-right: 1.5rem;
+    box-shadow: 0 0.1rem 0.9rem 0.1rem var(--dark-grey);
+    box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
+}

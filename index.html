@@ -13,40 +13,42 @@
 </head>
 <body>
     <div class="container">
-        <nav class="header">
-            <div class="header__btm__left">
-                <div class="logo">
-                    <img src="./images/logo.png" />
+        <header>
+            <nav class="header">
+                <div class="header__btm__left">
+                    <div class="logo">
+                        <img src="./images/logo.png" />
+                    </div>
+                    <ul class="style-none flex-row">
+                        <li class="list-item"><a class="color-white" href="/index.html">Home</a></li>
+                        <li class="list-item"><a class="color-white" href="/product/index.html">Product</a></li>
+                        <li class="list-item">
+                            <a class="color-white" href="/cart/index.html">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a class="color-white" href="/wishlist/index.html">
+                                <i class="fa fa-heart" aria-hidden="true"></i> wishlist
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a class="color-white" href="/authentication/logout/index.html">
+                                <i class="fa fa-sign-out" aria-hidden="true"></i> logout
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="style-none flex-row">
-                    <li class="list-item"><a class="color-white" href="/index.html">Home</a></li>
-                    <li class="list-item"><a class="color-white" href="/product/index.html">Product</a></li>
-                    <li class="list-item">
-                        <a class="color-white" href="/cart/index.html">
-                            <i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart
-                        </a>
-                    </li>
-                    <li class="list-item">
-                        <a class="color-white" href="/wishlist/index.html">
-                            <i class="fa fa-heart" aria-hidden="true"></i> wishlist
-                        </a>
-                    </li>
-                    <li class="list-item">
-                        <a class="color-white" href="/authentication/logout/index.html">
-                            <i class="fa fa-sign-out" aria-hidden="true"></i> logout
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="search flex-row">
-                <input type="text" class="custom__input" placeholder="Search your product">
-                <button class="cs-btn cs-btn-primary">Search</button>
-            </div>
-            <!-- <div class="header__btm__right"></div> -->
-        </nav>
+                <div class="search flex-row">
+                    <input type="text" class="custom__input" placeholder="Search your product">
+                    <button class="cs-btn cs-btn-primary">Search</button>
+                </div>
+                <!-- <div class="header__btm__right"></div> -->
+            </nav>
+        </header>
 
         <div class="main-container">
-            <div class="banner-container component-image-square">
+            <div class="banner-container">
                 <img src="./images/banner.jpeg" alt="banner-image" />
                 <div class="image-overlay-text">
                     <div class="font-lg padding-1">
@@ -58,9 +60,84 @@
                     </button>
                 </div>
             </div>
+
+            <div class="category__section">
+                <h2 class="category__title">SHOP BY CATEGORY</h2>
+                <div class="product__category">
+                    <div class="category__card">
+                        <div class="card__imagecontainer">
+                            <img src="../images/shoes1.webp">
+                        </div>
+                        <div class="card__content text-center">
+                            Shoes
+                        </div>
+                    </div>
+                    <div class="category__card">
+                        <div class="card__imagecontainer">
+                            <img src="../images/shoes1.webp">
+                        </div>
+                        <div class="card__content text-center">
+                            Shoes
+                        </div>
+                    </div>
+                    <div class="category__card">
+                        <div class="card__imagecontainer">
+                            <img src="../images/jeans.jpeg">
+                        </div>
+                        <div class="card__content text-center">
+                            jeans
+                        </div>
+                    </div>
+                    <div class="category__card">
+                        <div class="card__imagecontainer">
+                            <img src="../images/t-shirt.webp">
+                        </div>
+                        <div class="card__content text-center">
+                            Tshirt
+                        </div>
+                    </div>
+                    <div class="category__card">
+                        <div class="card__imagecontainer">
+                            <img src="../images/shirt.webp">
+                        </div>
+                        <div class="card__content text-center">
+                            Shirt
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <footer class="footer-container">
+            <div class="footer-text">
+                Anand Tiwari
+            </div>
+            <ul class="flex-row ">
+                <li class="footer-list-icon list-style-none ">
+                    <a href="https://github.com/anand-tiwari">
+                        <span class="footer-icon ">
+                        <i class="fa fa-github icon-white text-sm " aria-hidden="true "></i>
+                      </span>
+                    </a>
+                </li>
+                <li class="footer-list-icon list-style-none ">
+                    <a href="https://twitter.com/__anand__tiwari">
+                        <span class="footer-icon ">
+                        <i class="fa fa-twitter icon-white text-sm " aria-hidden="true "></i>
+                      </span>
+                    </a>
+                </li>
+                <li class="footer-list-icon list-style-none ">
+                    <a href="https://www.linkedin.com/in/anand-tiwari-30455b105/">
+                        <span class="footer-icon ">
+                        <i class="fa fa-linkedin icon-white text-sm " aria-hidden="true "></i>
+                      </span>
+                    </a>
+                </li>
+            </ul>
+        </footer>
     </div>
-    <script src="https://kit.fontawesome.com/482acc5102.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/482acc5102.js " crossorigin="anonymous "></script>
 </body>
 
 </html>
