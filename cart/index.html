@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://main--eager-nightingale-ec3f88.netlify.app/components/component.css">
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="../common.css" />
+    <link rel="stylesheet" href="./cart.css" />
+</head>
+
+<body>
+    <div class="container">
+        <nav class="header">
+            <div class="header__btm__left">
+                <div class="logo">
+                    <img src="../images/logo.png" />
+                </div>
+                <ul class="style-none flex-row">
+                    <li class="list-item"><a class="color-white" href="/index.html">Home</a></li>
+                    <li class="list-item"><a class="color-white" href="/product/product.html">Product</a></li>
+                </ul>
+            </div>
+            <div class="search flex-row">
+                <input type="text" class="custom__input">
+                <button class="cs-btn cs-btn-primary">Search</button>
+            </div>
+            <!-- <div class="header__btm__right"></div> -->
+        </nav>
+
+        <div class="main-container">
+            <div class="cart__title"> Cart Page</div>
+            <div class="cart">
+                <div class="card__container card__container_horizentol">
+                    <div class="card__imagecontainer card__imagecontainer_horizontal"><img src="../images/shoes1.webp"></div>
+                    <div class="card__content card__content_horizentol">
+                        <div class="card__description">
+                            <h3 class="card__description-brand">Shoes</h3>
+                            <h4 class="card__description-title">Mens Sneakers</h4>
+                            <div class="card__description-content">
+                                A pair of round-toe teal blue perforated sneakers, has regular styling, lace-up detail</div>
+                            <div class="card__description-content">
+                                <span><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+                                <span>10</span>
+                                <span><i class="fa fa-minus-circle" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="card__description-content">
+                                <span>Rs.1500</span> <span class="strikethrough">Rs.2200</span>(20% OFF)
+                            </div>
+                        </div>
+                        <div class="card-button">
+                            <button class="cs-btn cs-btn-primary cs-btn-add_to_card font-14">
+                                <i class="fa fa-shopping-bag" aria-hidden="true"></i>REMOVE FROM CARD</button>
+                            <button class="cs-btn cs-btn-light font-14">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i> WISHLLIST</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__container order-card">
+                    <div class="card__content width-100">
+
+                        <div class="coupon">
+                            <div class="coupon__title">COUPONS</div>
+                            <button class="cs-btn cs-btn-light">
+                                <i class="fa fa-tag" aria-hidden="true"></i> Apply Coupons
+                            </button>
+                        </div>
+                        <div class="card__description">
+                            <h4 class="card__description-title">PRICE DETAILS</h4>
+                            <div class="card__description-content flex-row order-card-description">
+                                <div>Total MRP</div>
+                                <div><i class="fa fa-inr" aria-hidden="true"></i> 1000</div>
+                            </div>
+                            <div class="card__description-content flex-row order-card-description">
+                                <div>Discount on MRP</div>
+                                <div><i class="fa fa-inr" aria-hidden="true"></i> 0</div>
+                            </div>
+                            <div class="card__description-content flex-row order-card-description">
+                                <div>Convenience Fee</div>
+                                <div><i class="fa fa-inr" aria-hidden="true"></i> 100</div>
+                            </div>
+                            <div class="card__description-content flex-row order-card-description">
+                                <h4 class="card__description-title">Total Amount</h4>
+                                <div><i class="fa fa-inr" aria-hidden="true"></i> 1100</div>
+                            </div>
+                        </div>
+                        <div class="card-button">
+                            <button class="cs-btn cs-btn-primary cs-btn-add_to_card">PLACE ORDER</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/482acc5102.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
