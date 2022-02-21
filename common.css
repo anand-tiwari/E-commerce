@@ -23,6 +23,10 @@ body {
     margin: auto;
 }
 
+.font-14 {
+    font-size: 1.4rem;
+}
+
 .font-15 {
     font-size: 1.5rem;
 }
@@ -66,4 +70,12 @@ a {
 
 .flex-row {
     display: flex;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.width-100 {
+    width: 100%;
 }
