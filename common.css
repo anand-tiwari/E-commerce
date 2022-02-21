@@ -23,6 +23,10 @@ body {
     margin: auto;
 }
 
+.font-15 {
+    font-size: 1.5rem;
+}
+
 .font-sm {
     font-size: 1.6rem;
 }

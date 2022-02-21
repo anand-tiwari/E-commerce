@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://main--eager-nightingale-ec3f88.netlify.app/components/component.css">
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="../common.css" />
+    <link rel="stylesheet" href="./product.css" />
+</head>
+
+<body>
+    <div class="container">
+        <nav class="header">
+            <div class="header__btm__left">
+                <div class="logo">
+                    <img src="../images/logo.png" />
+                </div>
+                <ul class="style-none flex-row">
+                    <li class="list-item"><a class="color-white" href="/index.html">Home</a></li>
+                    <li class="list-item"><a class="color-white" href="/product/product.html">Product</a></li>
+                </ul>
+            </div>
+            <div class="search flex-row">
+                <input type="text" class="custom__input">
+                <button class="cs-btn cs-btn-primary">Search</button>
+            </div>
+            <!-- <div class="header__btm__right"></div> -->
+        </nav>
+
+        <div class="main-container">
+
+            <div class="product__section">
+                <div class="filters">
+                    <div class="fliter__header">
+                        <div class="filter__title">Filters</div>
+                        <button class="cs-btn cs-btn-light">CLEAR_ALL</button>
+                    </div>
+                    <div class="sorting filter__box">
+                        <div class="single-select-filter">
+                            <label class="single-select-filter__header">
+                            Sorting
+                            </label>
+                            <div class="single-select-filter__body">
+                                <ul class="single-select-filter__list">
+                                    <li class="single-select-filter__list-item">
+                                        <label class="single-select-filter__list-label">
+                                        <div class="blu-radio" >
+                                           <div class="blu-radio-container"><input type="radio" id="10"></div>
+                                        </div>
+                                        <div class="facet-text">
+                                           <span>
+                                           Price - Low To High
+                                           </span>
+                                        </div>
+                                     </label>
+                                    </li>
+                                    <li class="single-select-filter__list-item">
+                                        <label class="single-select-filter__list-label">
+                                        <div class="blu-radio" >
+                                           <div class="blu-radio-container"><input type="radio" id="10"></div>
+                                        </div>
+                                        <div class="facet-text">
+                                           <span>
+                                           Price - High To Low
+                                           </span>
+                                        </div>
+                                     </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category filter__box">
+                        <div class="multi-select-filter">
+                            <label class="multi-select-filter__header active">Category</label>
+                            <div class="multi-select-filter__body">
+                                <ul class="multi-select-filter__list">
+                                    <li class="multi-select-filter__list-item">
+                                        <label class="multi-select-filter__list-label">
+                                            <div class="blu-checkbox" >
+                                            <input id="Shoes" tabindex="-1" type="checkbox" /> 
+                                                <label for="Shoes" tabindex="0"></label>
+                            </div>
+                            <div class="facet-text">Shoes</div>
+                            </label>
+                            </li>
+
+                            <li class="multi-select-filter__list-item">
+                                <label class="multi-select-filter__list-label">
+                                            <div class="blu-checkbox" >
+                                            <input id="Tshirt" tabindex="-1" type="checkbox"> 
+                                                <label for="Tshirt" tabindex="0"></label>
+                        </div>
+                        <div class="facet-text">Tshirt</div>
+                        </label>
+                        </li>
+
+                        <li class="multi-select-filter__list-item">
+                            <label class="multi-select-filter__list-label">
+                                            <div class="blu-checkbox" >
+                                            <input id="Jeans" tabindex="-1" type="checkbox"> 
+                                                <label for="Jeans" tabindex="0"></label>
+                    </div>
+                    <div class="facet-text">Jeans</div>
+                    </label>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="ratings filter__box">
+            <label class="multi-select-filter__header">Rating</label>
+            <div class="rating__container">
+                <span><i class="fa fa-star rating-active" aria-hidden="true"></i></span>
+                <span><i class="fa fa-star rating-active" aria-hidden="true"></i></span>
+                <span><i class="fa fa-star rating-active" aria-hidden="true"></i></span>
+                <span><i class="fa fa-star rating-active" aria-hidden="true"></i></span>
+                <span><i class="fa fa-star rating-active" aria-hidden="true"></i></span>
+            </div>
+
+            <div class="rating__container">
+                <span><i class="fa fa-star rating-active" aria-hidden="true"></i></span>
+                <span><i class="fa fa-star rating-active" aria-hidden="true"></i></span>
+                <span><i class="fa fa-star rating-active" aria-hidden="true"></i></span>
+                <span><i class="fa fa-star rating-active" aria-hidden="true"></i></span>
+                <span><i class="fa fa-star " aria-hidden="true"></i></span>
+            </div>
+
+
+            <div class="rating__container">
+                <span><i class="fa fa-star rating-active" aria-hidden="true"></i></span>
+                <span><i class="fa fa-star rating-active" aria-hidden="true"></i></span>
+                <span><i class="fa fa-star rating-active" aria-hidden="true"></i></span>
+                <span><i class="fa fa-star " aria-hidden="true"></i></span>
+                <span><i class="fa fa-star " aria-hidden="true"></i></span>
+            </div>
+
+            <div class="rating__container">
+                <span><i class="fa fa-star rating-active" aria-hidden="true"></i></span>
+                <span><i class="fa fa-star rating-active" aria-hidden="true"></i></span>
+                <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                <span><i class="fa fa-star" aria-hidden="true"></i></span>
+            </div>
+
+            <div class="rating__container">
+                <span><i class="fa fa-star rating-active" aria-hidden="true"></i></span>
+                <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                <span><i class="fa fa-star" aria-hidden="true"></i></span>
+            </div>
+        </div>
+    </div>
+    <div class="products">
+        <div class="product__item">
+            <div class="card__container card__container_vertical">
+                <div class="card__imagecontainer card__imagecontainer_vertical">
+                    <img src="../images/shoes1.webp">
+                    <span class="badge badge-trending">Trending</span>
+                </div>
+                <div class="card__content card__content_vertical">
+                    <div class="card__description">
+                        <h3 class="card__description-brand">Shoes</h3>
+                        <h4 class="card__description-title">Mens Sneakers</h4>
+                        <div class="card__description-content">
+                            A pair of round-toe teal blue perforated sneakers, has regular styling, lace-up detail</div>
+
+                    </div>
+                    <div class="card-button">
+                        <button class="cs-btn cs-btn-primary cs-btn-add_to_card font-15">
+                                            <i class="fa fa-shopping-bag" aria-hidden="true"></i> ADD TO CARD</button>
+                        <button class="cs-btn cs-btn-light font-15">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i> WISHLLIST</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product__item">
+            <div class="card__container card__container_vertical">
+                <div class="card__imagecontainer card__imagecontainer_vertical">
+                    <img src="../images/shoes1.webp">
+                    <span class="badge badge-trending">Trending</span>
+                </div>
+                <div class="card__content card__content_vertical">
+                    <div class="card__description">
+                        <h3 class="card__description-brand">Shoes</h3>
+                        <h4 class="card__description-title">Mens Sneakers</h4>
+                        <div class="card__description-content">
+                            A pair of round-toe teal blue perforated sneakers, has regular styling, lace-up detail</div>
+
+                    </div>
+                    <div class="card-button">
+                        <button class="cs-btn cs-btn-primary cs-btn-add_to_card font-15">
+                                            <i class="fa fa-shopping-bag" aria-hidden="true"></i> ADD TO CARD</button>
+                        <button class="cs-btn cs-btn-light font-15">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i> WISHLLIST</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product__item">
+            <div class="card__container card__container_vertical">
+                <div class="card__imagecontainer card__imagecontainer_vertical">
+                    <img src="../images/shoes1.webp">
+                    <span class="badge badge-trending">Trending</span>
+                </div>
+                <div class="card__content card__content_vertical">
+                    <div class="card__description">
+                        <h3 class="card__description-brand">Shoes</h3>
+                        <h4 class="card__description-title">Mens Sneakers</h4>
+                        <div class="card__description-content">
+                            A pair of round-toe teal blue perforated sneakers, has regular styling, lace-up detail</div>
+
+                    </div>
+                    <div class="card-button">
+                        <button class="cs-btn cs-btn-primary cs-btn-add_to_card font-15">
+                                            <i class="fa fa-shopping-bag" aria-hidden="true"></i> ADD TO CARD</button>
+                        <button class="cs-btn cs-btn-light font-15">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i> WISHLLIST</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product__item">
+            <div class="card__container card__container_vertical">
+                <div class="card__imagecontainer card__imagecontainer_vertical">
+                    <img src="../images/shoes1.webp">
+                    <span class="badge badge-trending">Trending</span>
+                </div>
+                <div class="card__content card__content_vertical">
+                    <div class="card__description">
+                        <h3 class="card__description-brand">Shoes</h3>
+                        <h4 class="card__description-title">Mens Sneakers</h4>
+                        <div class="card__description-content">
+                            A pair of round-toe teal blue perforated sneakers, has regular styling, lace-up detail</div>
+
+                    </div>
+                    <div class="card-button">
+                        <button class="cs-btn cs-btn-primary cs-btn-add_to_card font-15">
+                                            <i class="fa fa-shopping-bag" aria-hidden="true"></i> ADD TO CARD</button>
+                        <button class="cs-btn cs-btn-light font-15">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i> WISHLLIST</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product__item">
+            <div class="card__container card__container_vertical">
+                <div class="card__close"><i class="fa fa-times-circle-o" aria-hidden="true"></i></div>
+                <div class="card__imagecontainer card__imagecontainer_vertical">
+                    <img src="../images/shoes2.webp">
+                    <span class="badge badge-trending">Trending</span>
+                </div>
+                <div class="card__content card__content_vertical">
+                    <div class="card__description">
+                        <h3 class="card__description-brand">Shoes</h3>
+                        <h4 class="card__description-title">Mens Sneakers</h4>
+                        <div class="card__description-content">
+                            A pair of round-toe teal blue perforated sneakers, has regular styling, lace-up detail</div>
+
+                    </div>
+                    <div class="card-button">
+                        <button class="cs-btn cs-btn-primary cs-btn-add_to_card font-15">
+                                            <i class="fa fa-shopping-bag" aria-hidden="true"></i> ADD TO CARD</button>
+                        <button class="cs-btn cs-btn-light font-15">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i> WISHLLIST</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="product__item">
+            <div class="card__container card__container_vertical">
+                <div class="card__close"><i class="fa fa-times-circle-o" aria-hidden="true"></i></div>
+                <div class="card__imagecontainer card__imagecontainer_vertical">
+                    <img src="../images/shoes2.webp">
+                    <span class="badge badge-trending">Trending</span>
+                </div>
+                <div class="card__content card__content_vertical">
+                    <div class="card__description">
+                        <h3 class="card__description-brand">Shoes</h3>
+                        <h4 class="card__description-title">Mens Sneakers</h4>
+                        <div class="card__description-content">
+                            A pair of round-toe teal blue perforated sneakers, has regular styling, lace-up detail</div>
+
+                    </div>
+                    <div class="card-button">
+                        <button class="cs-btn cs-btn-primary cs-btn-add_to_card font-15">
+                                            <i class="fa fa-shopping-bag" aria-hidden="true"></i> ADD TO CARD</button>
+                        <button class="cs-btn cs-btn-light font-15">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i> WISHLLIST</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product__item">
+            <div class="card__container card__container_vertical">
+                <div class="card__close"><i class="fa fa-times-circle-o" aria-hidden="true"></i></div>
+                <div class="card__imagecontainer card__imagecontainer_vertical">
+                    <img src="../images/shoes2.webp">
+                    <span class="badge badge-trending">Trending</span>
+                </div>
+                <div class="card__content card__content_vertical">
+                    <div class="card__description">
+                        <h3 class="card__description-brand">Shoes</h3>
+                        <h4 class="card__description-title">Mens Sneakers</h4>
+                        <div class="card__description-content">
+                            A pair of round-toe teal blue perforated sneakers, has regular styling, lace-up detail</div>
+
+                    </div>
+                    <div class="card-button">
+                        <button class="cs-btn cs-btn-primary cs-btn-add_to_card font-15">
+                                            <i class="fa fa-shopping-bag" aria-hidden="true"></i> ADD TO CARD</button>
+                        <button class="cs-btn cs-btn-light font-15">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i> WISHLLIST</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <script src="https://kit.fontawesome.com/482acc5102.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
