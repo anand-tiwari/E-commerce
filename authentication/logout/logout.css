@@ -1,0 +1,19 @@
+.logout {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.logout button,
+.logout button:hover {
+    background-color: var(--sky-blue);
+    color: var(--lighter-white-color);
+}
+
+.logout__msg {
+    font-size: 1.9rem;
+    font-weight: 500;
+    padding: 1rem;
+}
