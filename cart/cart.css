@@ -1,0 +1,41 @@
+.cart {
+    display: flex;
+    justify-content: center;
+}
+
+.cart .card__container {
+    height: auto;
+}
+
+.cart__title {
+    font-size: 1.9rem;
+    text-align: center;
+    padding: 3rem;
+    color: var(--sky-blue);
+}
+
+.order-card {
+    width: 30rem;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.coupon,
+.coupon button {
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.coupon__title {
+    font-size: 1.9rem;
+    padding: 1rem;
+}
+
+.card-button button {
+    width: 100%;
+}
+
+.order-card-description {
+    justify-content: space-between;
+    padding-bottom: 1.9rem;
+}
