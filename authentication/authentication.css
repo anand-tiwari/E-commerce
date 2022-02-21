@@ -1,0 +1,17 @@
+.modal__body {
+    background-color: var(--light-white);
+}
+
+.modal__footer button,
+.modal__footer button:hover {
+    background-color: var(--sky-blue);
+}
+
+.form__action {
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom__input {
+    margin-top: 1rem;
+}

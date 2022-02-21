@@ -51,6 +51,10 @@ body {
     padding: 1.3rem 0;
 }
 
+.padding-buttom-10 {
+    padding-bottom: 3rem;
+}
+
 .list-style-none {
     list-style: none;
 }
@@ -66,4 +70,12 @@ a {
 
 .flex-row {
     display: flex;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.text-underline {
+    text-decoration: underline;
 }
