@@ -48,3 +48,7 @@
     top: 2rem;
     transform: translate(10%, 50%);
 }
+
+.image-overlay-text .fa-arrow-right {
+    margin-left: 0.4rem;
+}
