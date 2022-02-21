@@ -1,0 +1,50 @@
+/* Header  */
+
+.header {
+    display: flex;
+    width: 100%;
+    background: #0095da;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 99;
+    padding: 1rem 0;
+    align-items: center;
+    color: var(--light-color);
+    top: 0;
+    justify-content: space-between;
+}
+
+.header__btm__left {
+    display: flex;
+}
+
+.search .custom__input {
+    margin: 0;
+}
+
+.search button,
+.search button:hover {
+    background-color: var(--sky-blue);
+    border-color: var(--light-color);
+}
+
+.color-white {
+    color: var(--light-color);
+}
+
+.logo img {
+    height: 3rem;
+}
+
+
+/* main content */
+
+.banner-container {
+    position: relative;
+}
+
+.image-overlay-text {
+    position: absolute;
+    top: 2rem;
+    transform: translate(10%, 50%);
+}
