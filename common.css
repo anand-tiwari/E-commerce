@@ -76,6 +76,10 @@ a {
     display: flex;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .strikethrough {
     text-decoration: line-through;
 }
@@ -102,7 +106,7 @@ a {
 .footer-container {
     margin-top: 5rem;
     display: flex;
-    padding: 1.2rem 4rem;
+    padding: 1.2rem 2rem;
     background-color: var(--sky-blue);
     color: var(--lighter-white-color);
     justify-content: center;
@@ -115,4 +119,32 @@ a {
 
 .footer-list-icon i {
     color: var(--lighter-white-color);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+@media screen and (max-width: 750px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    html {
+        font-size: 30%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    html {
+        font-size: 20%;
+    }
+}
+
+@media screen and (max-width: 170px) {
+    html {
+        font-size: 10%;
+    }
 }

@@ -16,6 +16,18 @@
     flex: 0 0 25%;
 }
 
+@media screen and (max-width: 750px) {
+    .product__item {
+        flex: 0 0 25%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .product__item {
+        flex: 0 0 50%;
+    }
+}
+
 .products .card__container {
     width: 100%;
 }

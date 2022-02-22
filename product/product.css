@@ -18,7 +18,7 @@
 }
 
 .filter__box {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .filters {
@@ -29,11 +29,24 @@
     display: flex;
     flex-wrap: wrap;
     width: 80%;
+    padding-left: 3rem;
 }
 
 .product__item {
     padding: 1rem;
     flex: 0 0 25%;
+}
+
+@media screen and (max-width: 750px) {
+    .product__item {
+        flex: 0 0 25%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .product__item {
+        flex: 0 0 50%;
+    }
 }
 
 .products .card__container {
