@@ -2,6 +2,10 @@
     background-color: var(--light-white);
 }
 
+.modal__footer {
+    padding: 2rem;
+}
+
 .modal__footer button,
 .modal__footer button:hover {
     background-color: var(--sky-blue);
